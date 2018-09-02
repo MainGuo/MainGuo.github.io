@@ -17,11 +17,26 @@
       
         <tags>
             
-            <tag> 心绪 </tag>
-            
             <tag> 碎碎念 </tag>
             
+            <tag> 心绪 </tag>
+            
         </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>第一个php项目</title>
+      <link href="/blog/2018/05/15/%E5%BF%99/"/>
+      <url>/blog/2018/05/15/%E5%BF%99/</url>
+      <content type="html"><![CDATA[<p>&emsp;&emsp;手上接了老师的一个使用ThinkCMF框架实现的创业项目。暂且就叫它跑趣吧，周六周日在工作室呆着做自己的事情，课程要求的作业与任务，最近在接触Git、Vue、Android的有关技术。坦言我并不是非常认真，在不断学习过程中我遇到的一些问题我都是选择性的学习，我不知道要学到什么程度为止。<br><br><br>&emsp;&emsp;进来借着“忙”的接口，以及几个月没去健身了。这不是一个好习惯。<br>&emsp;&emsp;今晚就去，7点。<br><br></p><center><br>    <img src="/assets/blogImg/日记2018-5-15.jpg" width="50%" height="50%"><br></center> ]]></content>
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
       
     </entry>
     
@@ -48,9 +63,9 @@
     
     <entry>
       <title>第一个php项目</title>
-      <link href="/blog/2018/05/15/%E5%BF%99/"/>
-      <url>/blog/2018/05/15/%E5%BF%99/</url>
-      <content type="html"><![CDATA[<p>&emsp;&emsp;手上接了老师的一个使用ThinkCMF框架实现的创业项目。暂且就叫它跑趣吧，周六周日在工作室呆着做自己的事情，课程要求的作业与任务，最近在接触Git、Vue、Android的有关技术。坦言我并不是非常认真，在不断学习过程中我遇到的一些问题我都是选择性的学习，我不知道要学到什么程度为止。<br><br><br>&emsp;&emsp;进来借着“忙”的接口，以及几个月没去健身了。这不是一个好习惯。<br>&emsp;&emsp;今晚就去，7点。<br><br></p><center><br>    <img src="/assets/blogImg/日记2018-5-15.jpg" width="50%" height="50%"><br></center> ]]></content>
+      <link href="/blog/2018/05/15/%E5%BF%99(2)/"/>
+      <url>/blog/2018/05/15/%E5%BF%99(2)/</url>
+      <content type="html"><![CDATA[<p>&emsp;&emsp;手上接了老师的一个使用ThinkCMF框架实现的创业项目。暂且就叫它跑趣吧，周六周日在工作室呆着做自己的事情，课程要求的作业与任务，最近在接触Git、Vue、Android的有关技术。坦言我并不是非常认真，在不断学习过程中我遇到的一些问题我都是选择性的学习，我不知道要学到什么程度为止。<br><br><br>&emsp;&emsp;进来借着“忙”的接口，已经几个月没去健身了。这不是一个好习惯。<br><br><br>&emsp;&emsp;今晚就去，7点。<br><br></p>]]></content>
       
       <categories>
           
@@ -58,6 +73,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 碎碎念 </tag>
+            
+        </tags>
       
     </entry>
     

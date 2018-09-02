@@ -33,9 +33,32 @@
       <category term="日记" scheme="https://mainguo.coding.me/blog/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
+      <category term="碎碎念" scheme="https://mainguo.coding.me/blog/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
       <category term="心绪" scheme="https://mainguo.coding.me/blog/tags/%E5%BF%83%E7%BB%AA/"/>
     
-      <category term="碎碎念" scheme="https://mainguo.coding.me/blog/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+  </entry>
+  
+  <entry>
+    <title>第一个php项目</title>
+    <link href="https://mainguo.coding.me/blog/2018/05/15/%E5%BF%99/"/>
+    <id>https://mainguo.coding.me/blog/2018/05/15/忙/</id>
+    <published>2018-05-15T10:32:18.000Z</published>
+    <updated>2018-09-02T14:40:58.534Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;手上接了老师的一个使用ThinkCMF框架实现的创业项目。暂且就叫它跑趣吧，周六周日在工作室呆着做自己的事情，课程要求的作业与任务，最近在接触Git、Vue、Android的有关技术。坦言我并不是非常认真，在不断学习过程中我遇到的一些问题我都是选择性的学习，我不知道要学到什么程度为止。<br><br><br>&emsp;&emsp;进来借着“忙”的接口，以及几个月没去健身了。这不是一个好习惯。<br>&emsp;&emsp;今晚就去，7点。<br><br></p><center><br>    <img src="/assets/blogImg/日记2018-5-15.jpg" width="50%" height="50%"><br></center> ]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;emsp;&amp;emsp;手上接了老师的一个使用ThinkCMF框架实现的创业项目。暂且就叫它跑趣吧，周六周日在工作室呆着做自己的事情，课程要求的作业与任务，最近在接触Git、Vue、Android的有关技术。坦言我并不是非常认真，在不断学习过程中我遇到的一些问题我都是选择性
+      
+    
+    </summary>
+    
+      <category term="日记" scheme="https://mainguo.coding.me/blog/categories/%E6%97%A5%E8%AE%B0/"/>
+    
     
   </entry>
   
@@ -66,12 +89,12 @@
   
   <entry>
     <title>第一个php项目</title>
-    <link href="https://mainguo.coding.me/blog/2018/05/15/%E5%BF%99/"/>
-    <id>https://mainguo.coding.me/blog/2018/05/15/忙/</id>
+    <link href="https://mainguo.coding.me/blog/2018/05/15/%E5%BF%99(2)/"/>
+    <id>https://mainguo.coding.me/blog/2018/05/15/忙(2)/</id>
     <published>2018-05-15T10:32:18.000Z</published>
-    <updated>2018-09-02T14:40:58.534Z</updated>
+    <updated>2018-09-02T15:06:27.383Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;手上接了老师的一个使用ThinkCMF框架实现的创业项目。暂且就叫它跑趣吧，周六周日在工作室呆着做自己的事情，课程要求的作业与任务，最近在接触Git、Vue、Android的有关技术。坦言我并不是非常认真，在不断学习过程中我遇到的一些问题我都是选择性的学习，我不知道要学到什么程度为止。<br><br><br>&emsp;&emsp;进来借着“忙”的接口，以及几个月没去健身了。这不是一个好习惯。<br>&emsp;&emsp;今晚就去，7点。<br><br></p><center><br>    <img src="/assets/blogImg/日记2018-5-15.jpg" width="50%" height="50%"><br></center> ]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;手上接了老师的一个使用ThinkCMF框架实现的创业项目。暂且就叫它跑趣吧，周六周日在工作室呆着做自己的事情，课程要求的作业与任务，最近在接触Git、Vue、Android的有关技术。坦言我并不是非常认真，在不断学习过程中我遇到的一些问题我都是选择性的学习，我不知道要学到什么程度为止。<br><br><br>&emsp;&emsp;进来借着“忙”的接口，已经几个月没去健身了。这不是一个好习惯。<br><br><br>&emsp;&emsp;今晚就去，7点。<br><br></p>]]></content>
     
     <summary type="html">
     
@@ -84,6 +107,8 @@
     
       <category term="日记" scheme="https://mainguo.coding.me/blog/categories/%E6%97%A5%E8%AE%B0/"/>
     
+    
+      <category term="碎碎念" scheme="https://mainguo.coding.me/blog/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
