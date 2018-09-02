@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>第一个php项目</title>
+      <link href="/blog/2018/09/02/PHP%E8%BD%AC%E6%8D%A2gb2312%E7%BC%96%E7%A0%81xml%E4%B8%BA%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1/"/>
+      <url>/blog/2018/09/02/PHP%E8%BD%AC%E6%8D%A2gb2312%E7%BC%96%E7%A0%81xml%E4%B8%BA%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1/</url>
+      <content type="html"><![CDATA[<p>&emsp;&emsp;调用中间件接口的返回值是一个xml字符串，其中 ==charset=”GB2312”==，但奇怪的是我使用 mb_detect_encoding() 函数来判断这个xml字符串，得到的结果却是  UTF-8。但由于 xml 中 charset 的值为 GB2312，所以导致了 simplexml_load_string() 函数无法成功解析这个xml字符串。</p><p>其实解决这个错误非常简单,使用 str_replace 函数将xml字符串中的编码格式替换为 UTF-8 后再使用json编码解码后就可以得到干净的数组元素。<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1 $xml= str_replace(&apos;GB2312&apos;,&apos;UTF-8&apos;,$xml);</span><br><span class="line">2 $xml= simplexml_load_string($xml);</span><br><span class="line">3 $xml= json_encode($xml);//将对象转换个JSON</span><br><span class="line">4 $xml=json_decode($xml,JSON_UNESCAPED_UNICODE);//将json转换成数组</span><br></pre></td></tr></table></figure>]]></content>
+      
+      <categories>
+          
+          <category> 后端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PHP </tag>
+            
+            <tag> xml转array </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>I wanna change something...</title>
       <link href="/blog/2018/09/02/I%20wanna%20change%20something.../"/>
       <url>/blog/2018/09/02/I%20wanna%20change%20something.../</url>
@@ -17,9 +40,9 @@
       
         <tags>
             
-            <tag> 心绪 </tag>
-            
             <tag> 碎碎念 </tag>
+            
+            <tag> 心绪 </tag>
             
         </tags>
       

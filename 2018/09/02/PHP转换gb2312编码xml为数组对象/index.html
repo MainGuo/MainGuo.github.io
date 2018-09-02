@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>Archives: 2018/5 | MainGuo&#39;s Blog</title>
+  <title>第一个php项目 | MainGuo&#39;s Blog</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   <meta name="HandheldFriendly" content="True" />
@@ -123,59 +123,120 @@
     <div class="l_body">
     <div class='container clearfix'>
         <div class='l_main'>
+            <article id="post-PHP转换gb2312编码xml为数组对象" class="post white-box article-type-post" itemscope itemprop="blogPost">
+    <section class='meta'>
+        <h1 class="title">
             
-	
-    <script>
-        window.subData= { title:'year : 2018.5'}
-    </script>
-
-
-<section class="post-list">
-    
-    
-        <div class='post-wrapper'>
-            <article class="post reveal">
-    <section class="meta">
-        <h2 class="title">
-            <a href="/blog/2018/05/15/忙/">
-                
-                    第一个php项目
-                
-            </a>
-        </h2>
+                第一个php项目
+            
+        </h1>
         <time>
-            2018-05-15 Tuesday
+            2018-09-02 Sunday&nbsp;&nbsp;
+            <i class="fa fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
         </time>
         
     
     <div class='cats'>
-        <a href="/blog/categories/日记/">日记</a>
+        <a href="/blog/categories/后端/">后端</a>
     </div>
 
 
     </section>
 
     <section class="article typo">
-        <p>&emsp;&emsp;手上接了老师的一个使用ThinkCMF框架实现的创业项目。暂且就叫它跑趣吧，周六周日在工作室呆着做自己的事情，课程要求的作业与任务，最近在接触Git、Vue、Android的有关技术。坦言我并不是非常认真，在不断学习过程中我遇到的一些问题我都是选择性的学习，我不知道要学到什么程度为止。<br><br><br>&emsp;&emsp;进来借着“忙”的接口，已经几个月没去健身了。这不是一个好习惯。<br><br><br>&emsp;&emsp;今晚就去，7点。<br><br></p>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>&emsp;&emsp;调用中间件接口的返回值是一个xml字符串，其中 ==charset=”GB2312”==，但奇怪的是我使用 mb_detect_encoding() 函数来判断这个xml字符串，得到的结果却是  UTF-8。但由于 xml 中 charset 的值为 GB2312，所以导致了 simplexml_load_string() 函数无法成功解析这个xml字符串。</p>
+<p>其实解决这个错误非常简单,使用 str_replace 函数将xml字符串中的编码格式替换为 UTF-8 后再使用json编码解码后就可以得到干净的数组元素。<br></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1 $xml= str_replace(&apos;GB2312&apos;,&apos;UTF-8&apos;,$xml);</span><br><span class="line">2 $xml= simplexml_load_string($xml);</span><br><span class="line">3 $xml= json_encode($xml);//将对象转换个JSON</span><br><span class="line">4 $xml=json_decode($xml,JSON_UNESCAPED_UNICODE);//将json转换成数组</span><br></pre></td></tr></table></figure>
+
+        </div>
 
         
-
-        
-            <div class="full-width auto-padding tags">
+            <div class="article-tags tags">
                 
-                    <a href="/blog/tags/碎碎念/"><i class="fa fa-tag fa-fw"></i>&nbsp;碎碎念</a>
+                    <a href="/blog/tags/PHP/"><i class="fa fa-tag fa-fw" aria-hidden="true"></i>&nbsp;PHP</a>
+                
+                    <a href="/blog/tags/xml转array/"><i class="fa fa-tag fa-fw" aria-hidden="true"></i>&nbsp;xml转array</a>
                 
             </div>
         
+
+        
+            <div class="prev-next">
+                
+                
+                    <section class="next">
+                        <span class="art-item-right" aria-hidden="true">
+                            <h6>下一篇&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></h6>
+                            <h4>
+                                <a href="/blog/2018/09/02/I wanna change something.../" rel="prev" title="I wanna change something...">
+                                    I wanna change something...
+                                </a>
+                            </h4>
+                            
+                                <h6 class="tags">
+                                    
+                                        <i class="fa fa-tag fa-fw"></i>碎碎念
+                                    
+                                        <i class="fa fa-tag fa-fw"></i>心绪
+                                    
+                                </h6>
+                            
+                        </span>
+                    </section>
+                
+            </div>
+        
+
     </section>
+
 </article>
 
-        </div>
-    
-</section>
+<br>
+
+<!-- 显示推荐文章和评论 -->
+
+    <article class="post white-box comments">
+        <section class="article typo">
+
+            
+                
+
+    <div class="recommended_posts">
+        <h4><i class="fa fa-bookmark fa-fw" aria-hidden="true"></i>&nbsp;你可能感兴趣的文章</h4>
+        <ul>
+            
+                <li><a href="https://mainguo.coding.me/blog/2018/09/02/I wanna change something.../">I wanna change something...</a></li>
+            
+                <li><a href="https://mainguo.coding.me/blog/2018/05/15/忙/">第一个php项目</a></li>
+            
+        </ul>
+    </div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 
 
+            
 
+            
+
+                
+
+                
+
+                
+            
+
+        </section>
+    </article>
+
+
+<script>
+    window.subData = {
+        title: '第一个php项目',
+        tools: true
+    }
+</script>
 
 
         </div>
@@ -388,6 +449,10 @@
 <script src="/blog/js/search.js"></script>
 <script src="/blog/js/app.js"></script>
 
+
+    
+    
+    
 
 
     <script>setLoadingBarProgress(100);</script>
