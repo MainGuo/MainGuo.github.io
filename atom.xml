@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://mainguo.coding.me/blog/"/>
-  <updated>2018-09-02T15:33:56.112Z</updated>
+  <updated>2018-09-02T15:36:06.490Z</updated>
   <id>https://mainguo.coding.me/blog/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -16,9 +16,9 @@
     <link href="https://mainguo.coding.me/blog/2018/09/02/PHP%E8%BD%AC%E6%8D%A2gb2312%E7%BC%96%E7%A0%81xml%E4%B8%BA%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1/"/>
     <id>https://mainguo.coding.me/blog/2018/09/02/PHP转换gb2312编码xml为数组对象/</id>
     <published>2018-09-02T15:24:04.000Z</published>
-    <updated>2018-09-02T15:33:56.112Z</updated>
+    <updated>2018-09-02T15:36:06.490Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;调用中间件接口的返回值是一个xml字符串，其中 <strong>charset=”GB2312”</strong>，但奇怪的是我使用 <strong>mb_detect_encoding()</strong> 函数来判断这个xml字符串，得到的结果却是  UTF-8。<strong>但由于 xml 中 charset 的值为 GB2312，所以导致了 simplexml_load_string() 函数无法成功解析这个xml字符串</strong>。</p><p>其实解决这个错误非常简单,使用 str_replace 函数将xml字符串中的编码格式替换为 UTF-8 后再使用json编码解码后就可以得到干净的数组元素。<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$xml= str_replace(&apos;GB2312&apos;,&apos;UTF-8&apos;,$xml);</span><br><span class="line">$xml= simplexml_load_string($xml);</span><br><span class="line">$xml= json_encode($xml);//将对象转换个JSON</span><br><span class="line">$xml=json_decode($xml,JSON_UNESCAPED_UNICODE);//将json转换成数组</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;调用中间件接口的返回值是一个xml字符串，其中 <strong>charset=”GB2312”</strong>，但奇怪的是我使用 <strong>mb_detect_encoding()</strong> 函数来判断这个xml字符串，得到的结果却是  UTF-8。<strong>但由于 xml 中 charset 的值为 GB2312，所以导致了 simplexml_load_string() 函数无法成功解析这个xml字符串</strong>。<br></p><p>&emsp;&emsp;其实解决这个错误非常简单,使用 str_replace 函数将xml字符串中的编码格式替换为 UTF-8 后再使用json编码解码后就可以得到干净的数组元素。<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$xml= str_replace(&apos;GB2312&apos;,&apos;UTF-8&apos;,$xml);</span><br><span class="line">$xml= simplexml_load_string($xml);</span><br><span class="line">$xml= json_encode($xml);//将对象转换个JSON</span><br><span class="line">$xml=json_decode($xml,JSON_UNESCAPED_UNICODE);//将json转换成数组</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -43,16 +43,16 @@
     <link href="https://mainguo.coding.me/blog/2018/09/02/I%20wanna%20change%20something.../"/>
     <id>https://mainguo.coding.me/blog/2018/09/02/I wanna change something.../</id>
     <published>2018-09-02T14:49:05.000Z</published>
-    <updated>2018-09-02T15:02:35.008Z</updated>
+    <updated>2018-09-02T15:36:30.829Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;正是大四开学初的时间，最近正在忙活着学校申请校外实习和专业实习的材料。我一向最烦这些七七八八的文档，以我们院校的效率怕是一个月都出不去的。由此也我明白我并不喜欢公务员那种一成不变的生活，既没有挑战，也没有激情。。<br><br></p><p>&emsp;&emsp;电话询问了附近的一家健身房，本想办张卡继续健身的。一听到1299的价格就望而生畏了，果断入手一辆自己的动感单车。真的200斤了QAQ<br><br></p><p><center><br>    <img src="http://p8ruh7rsq.bkt.clouddn.com/img/0902/%E5%8A%A8%E6%84%9F%E5%8D%95%E8%BD%A6.png" width="100%" height="100%"><br></center> <br><br></p><p>&emsp;&emsp;刚刚回到金城湾那里，前些日子因为电费的问题想换个地方，在桥头附近租了一间1000的，总之折腾了几趟后还是回到了金城湾。我发现房子里的味道和采光还有装修真的特别重要，即使房间大一点，如果这些条件不能真的让你舒心的话，还是趁早搬了吧。</p>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;正是大四开学初的时间，最近正在忙活着学校申请校外实习和专业实习的材料。我一向最烦这些七七八八的文档，以我们院校的效率怕是一个月都出不去的。由此也我明白我并不喜欢公务员那种一成不变的生活，既没有挑战，也没有激情…<br></p><p>&emsp;&emsp;电话询问了附近的一家健身房，本想办张卡继续健身的。一听到1299的价格就望而生畏了，果断入手一辆自己的动感单车。真的200斤了QAQ<br></p><p><center><br>    <img src="http://p8ruh7rsq.bkt.clouddn.com/img/0902/%E5%8A%A8%E6%84%9F%E5%8D%95%E8%BD%A6.png" width="100%" height="100%"><br></center> <br></p><p>&emsp;&emsp;刚刚回到金城湾那里，前些日子因为电费的问题想换个地方，在桥头附近租了一间1000的，总之折腾了几趟后还是回到了金城湾。我发现房子里的味道和采光还有装修真的特别重要，即使房间大一点，如果这些条件不能真的让你舒心的话，还是趁早搬了吧。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&amp;emsp;&amp;emsp;正是大四开学初的时间，最近正在忙活着学校申请校外实习和专业实习的材料。我一向最烦这些七七八八的文档，以我们院校的效率怕是一个月都出不去的。由此也我明白我并不喜欢公务员那种一成不变的生活，既没有挑战，也没有激情。。&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&amp;em
+        &lt;p&gt;&amp;emsp;&amp;emsp;正是大四开学初的时间，最近正在忙活着学校申请校外实习和专业实习的材料。我一向最烦这些七七八八的文档，以我们院校的效率怕是一个月都出不去的。由此也我明白我并不喜欢公务员那种一成不变的生活，既没有挑战，也没有激情…&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;e
       
     
     </summary>
@@ -60,9 +60,9 @@
       <category term="日记" scheme="https://mainguo.coding.me/blog/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
-      <category term="心绪" scheme="https://mainguo.coding.me/blog/tags/%E5%BF%83%E7%BB%AA/"/>
-    
       <category term="碎碎念" scheme="https://mainguo.coding.me/blog/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+      <category term="心绪" scheme="https://mainguo.coding.me/blog/tags/%E5%BF%83%E7%BB%AA/"/>
     
   </entry>
   
@@ -71,9 +71,9 @@
     <link href="https://mainguo.coding.me/blog/2018/05/15/%E5%BF%99/"/>
     <id>https://mainguo.coding.me/blog/2018/05/15/忙/</id>
     <published>2018-05-15T10:32:18.000Z</published>
-    <updated>2018-09-02T15:06:27.383Z</updated>
+    <updated>2018-09-02T15:36:15.701Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;手上接了老师的一个使用ThinkCMF框架实现的创业项目。暂且就叫它跑趣吧，周六周日在工作室呆着做自己的事情，课程要求的作业与任务，最近在接触Git、Vue、Android的有关技术。坦言我并不是非常认真，在不断学习过程中我遇到的一些问题我都是选择性的学习，我不知道要学到什么程度为止。<br><br><br>&emsp;&emsp;进来借着“忙”的接口，已经几个月没去健身了。这不是一个好习惯。<br><br><br>&emsp;&emsp;今晚就去，7点。<br><br></p>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;手上接了老师的一个使用ThinkCMF框架实现的创业项目。暂且就叫它跑趣吧，周六周日在工作室呆着做自己的事情，课程要求的作业与任务，最近在接触Git、Vue、Android的有关技术。坦言我并不是非常认真，在不断学习过程中我遇到的一些问题我都是选择性的学习，我不知道要学到什么程度为止。<br><br>&emsp;&emsp;进来借着“忙”的接口，已经几个月没去健身了。这不是一个好习惯。<br><br>&emsp;&emsp;今晚就去，7点。</p>]]></content>
     
     <summary type="html">
     

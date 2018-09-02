@@ -146,8 +146,8 @@
     <section class="article typo">
 
         <div class="article-entry" itemprop="articleBody">
-            <p>&emsp;&emsp;调用中间件接口的返回值是一个xml字符串，其中 <strong>charset=”GB2312”</strong>，但奇怪的是我使用 <strong>mb_detect_encoding()</strong> 函数来判断这个xml字符串，得到的结果却是  UTF-8。<strong>但由于 xml 中 charset 的值为 GB2312，所以导致了 simplexml_load_string() 函数无法成功解析这个xml字符串</strong>。</p>
-<p>其实解决这个错误非常简单,使用 str_replace 函数将xml字符串中的编码格式替换为 UTF-8 后再使用json编码解码后就可以得到干净的数组元素。<br></p>
+            <p>&emsp;&emsp;调用中间件接口的返回值是一个xml字符串，其中 <strong>charset=”GB2312”</strong>，但奇怪的是我使用 <strong>mb_detect_encoding()</strong> 函数来判断这个xml字符串，得到的结果却是  UTF-8。<strong>但由于 xml 中 charset 的值为 GB2312，所以导致了 simplexml_load_string() 函数无法成功解析这个xml字符串</strong>。<br></p>
+<p>&emsp;&emsp;其实解决这个错误非常简单,使用 str_replace 函数将xml字符串中的编码格式替换为 UTF-8 后再使用json编码解码后就可以得到干净的数组元素。<br></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$xml= str_replace(&apos;GB2312&apos;,&apos;UTF-8&apos;,$xml);</span><br><span class="line">$xml= simplexml_load_string($xml);</span><br><span class="line">$xml= json_encode($xml);//将对象转换个JSON</span><br><span class="line">$xml=json_decode($xml,JSON_UNESCAPED_UNICODE);//将json转换成数组</span><br></pre></td></tr></table></figure>
 
         </div>
@@ -177,9 +177,9 @@
                             
                                 <h6 class="tags">
                                     
-                                        <i class="fa fa-tag fa-fw"></i>心绪
-                                    
                                         <i class="fa fa-tag fa-fw"></i>碎碎念
+                                    
+                                        <i class="fa fa-tag fa-fw"></i>心绪
                                     
                                 </h6>
                             
