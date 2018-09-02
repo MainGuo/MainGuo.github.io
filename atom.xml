@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://mainguo.coding.me/blog/"/>
-  <updated>2018-09-02T15:30:50.671Z</updated>
+  <updated>2018-09-02T15:33:56.112Z</updated>
   <id>https://mainguo.coding.me/blog/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -16,15 +16,15 @@
     <link href="https://mainguo.coding.me/blog/2018/09/02/PHP%E8%BD%AC%E6%8D%A2gb2312%E7%BC%96%E7%A0%81xml%E4%B8%BA%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1/"/>
     <id>https://mainguo.coding.me/blog/2018/09/02/PHP转换gb2312编码xml为数组对象/</id>
     <published>2018-09-02T15:24:04.000Z</published>
-    <updated>2018-09-02T15:30:50.671Z</updated>
+    <updated>2018-09-02T15:33:56.112Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;调用中间件接口的返回值是一个xml字符串，其中 ==charset=”GB2312”==，但奇怪的是我使用 mb_detect_encoding() 函数来判断这个xml字符串，得到的结果却是  UTF-8。但由于 xml 中 charset 的值为 GB2312，所以导致了 simplexml_load_string() 函数无法成功解析这个xml字符串。</p><p>其实解决这个错误非常简单,使用 str_replace 函数将xml字符串中的编码格式替换为 UTF-8 后再使用json编码解码后就可以得到干净的数组元素。<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1 $xml= str_replace(&apos;GB2312&apos;,&apos;UTF-8&apos;,$xml);</span><br><span class="line">2 $xml= simplexml_load_string($xml);</span><br><span class="line">3 $xml= json_encode($xml);//将对象转换个JSON</span><br><span class="line">4 $xml=json_decode($xml,JSON_UNESCAPED_UNICODE);//将json转换成数组</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;调用中间件接口的返回值是一个xml字符串，其中 <strong>charset=”GB2312”</strong>，但奇怪的是我使用 <strong>mb_detect_encoding()</strong> 函数来判断这个xml字符串，得到的结果却是  UTF-8。<strong>但由于 xml 中 charset 的值为 GB2312，所以导致了 simplexml_load_string() 函数无法成功解析这个xml字符串</strong>。</p><p>其实解决这个错误非常简单,使用 str_replace 函数将xml字符串中的编码格式替换为 UTF-8 后再使用json编码解码后就可以得到干净的数组元素。<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$xml= str_replace(&apos;GB2312&apos;,&apos;UTF-8&apos;,$xml);</span><br><span class="line">$xml= simplexml_load_string($xml);</span><br><span class="line">$xml= json_encode($xml);//将对象转换个JSON</span><br><span class="line">$xml=json_decode($xml,JSON_UNESCAPED_UNICODE);//将json转换成数组</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&amp;emsp;&amp;emsp;调用中间件接口的返回值是一个xml字符串，其中 ==charset=”GB2312”==，但奇怪的是我使用 mb_detect_encoding() 函数来判断这个xml字符串，得到的结果却是  UTF-8。但由于 xml 中 charset 的值为
+        &lt;p&gt;&amp;emsp;&amp;emsp;调用中间件接口的返回值是一个xml字符串，其中 &lt;strong&gt;charset=”GB2312”&lt;/strong&gt;，但奇怪的是我使用 &lt;strong&gt;mb_detect_encoding()&lt;/strong&gt; 函数来判断这个xml字符串，得到的结果却
       
     
     </summary>
