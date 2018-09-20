@@ -165,6 +165,13 @@
 <li>支持 一键安装 BBR</li>
 <li>支持 一键封禁 垃圾邮件(SMAP)/BT/PT</li>
 </ul>
+<h3 id="6-安装谷歌BBR防阻塞协议"><a href="#6-安装谷歌BBR防阻塞协议" class="headerlink" title="6.安装谷歌BBR防阻塞协议"></a>6.安装谷歌BBR防阻塞协议</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">以root身份运行</span><br><span class="line">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh &amp;&amp; chmod +x bbr.sh &amp;&amp; ./bbr.sh</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;安装完成后，脚本会提示需要重启 VPS，输入 y 并回车后重启。<br>重启完成后，进入 VPS，验证一下是否成功安装最新内核并开启 TCP BBR，输入以下命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">uname -r</span><br></pre></td></tr></table></figure></p>
+<p>查看内核版本，显示为最新版就表示 OK 了</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sysctl net.ipv4.tcp_available_congestion_control</span><br></pre></td></tr></table></figure>
+<p>返回值一般为：<br>net.ipv4.tcp_congestion_control = bbr<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sysctl net.core.default_qdisc</span><br></pre></td></tr></table></figure></p>
+<p>返回值一般为：<br>net.core.default_qdisc = fq<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsmod | grep bbr</span><br></pre></td></tr></table></figure></p>
+<p>返回值有 tcp_bbr 模块即说明 bbr 已启动。注意：并不是所有的 VPS 都会有此返回值，若没有也属正常.<br><br><br><br><strong>安装BBR原文地址 : <a href="https://teddysun.com/489.html" target="_blank" rel="noopener">秋水逸冰一键安装bbr</a></strong></p>
 
         </div>
 
@@ -383,7 +390,7 @@
     <section class='m_widget toc-wrapper'>
         <div class="header"><i class="fa fa-list fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;目录</div>
         <div class='content'>
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-vultr机房测速"><span class="toc-text">1.vultr机房测速</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-氪金"><span class="toc-text">2.氪金</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-选机房购买服务器"><span class="toc-text">3.选机房购买服务器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-检查一下你的ip是否被河蟹"><span class="toc-text">4.检查一下你的ip是否被河蟹</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-部署ssr服务"><span class="toc-text">5.部署ssr服务</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-vultr机房测速"><span class="toc-text">1.vultr机房测速</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-氪金"><span class="toc-text">2.氪金</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-选机房购买服务器"><span class="toc-text">3.选机房购买服务器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-检查一下你的ip是否被河蟹"><span class="toc-text">4.检查一下你的ip是否被河蟹</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-部署ssr服务"><span class="toc-text">5.部署ssr服务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-安装谷歌BBR防阻塞协议"><span class="toc-text">6.安装谷歌BBR防阻塞协议</span></a></li></ol>
         </div>
     </section>
 
