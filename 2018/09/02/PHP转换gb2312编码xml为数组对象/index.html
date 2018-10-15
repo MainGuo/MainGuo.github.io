@@ -230,8 +230,7 @@
                     
                         <h4><i class="fa fa-comments fa-fw" aria-hidden="true"></i>&nbsp;Valine评论</h4>
                         <div class="subtitle">
-                          <h6><b>文明评论，请勿灌水。</b>留言时填写一下 <b>昵称</b><br>
-                          留言时填写邮箱可以在被回复时收到邮件提醒
+                          留言时填写一下 <b>昵称</b><br>
                         <div>
                         <section id="comments">
                             <div id="valine_container" class="valine_thread">
@@ -490,7 +489,7 @@
         
             <script>
             var GUEST_INFO = ['nick','mail','link'];
-            var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+            var guest_info = 'nick,mail'.split(',').filter(function(item){
                 return GUEST_INFO.indexOf(item) > -1
             });
             var notify = 'true' == true;
@@ -503,7 +502,7 @@
                 guest_info: guest_info,
                 appId: "q1xpwmFTc2AS8JEFNwGBuqnE-gzGzoHsz",
                 appKey: "hxJoW4iXhiiqD8d7trjFsGFN",
-                placeholder: "评论区(๑╹◡╹)ﾉ&#34;&#34;&#34;~",
+                placeholder: "评论区(๑╹◡╹)ﾉ~",
                 pageSize:'10',
                 avatar:'mp',
                 lang:'zh-cn'
