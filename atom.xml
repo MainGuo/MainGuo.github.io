@@ -5,9 +5,9 @@
   <subtitle>MainGuo-blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://mainguo.github.io/"/>
+  <link href="https://blog.mainguo.top/"/>
   <updated>2018-10-15T06:00:30.445Z</updated>
-  <id>https://mainguo.github.io/</id>
+  <id>https://blog.mainguo.top/</id>
   
   <author>
     <name>郭彬杰</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>3分钟为反向代理架设的Gogs增加https服务(nginx)</title>
-    <link href="https://mainguo.github.io/2018/10/14/3%E5%88%86%E9%92%9F%E4%B8%BA%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E6%9E%B6%E8%AE%BE%E7%9A%84Gogs%E5%A2%9E%E5%8A%A0https%E6%9C%8D%E5%8A%A1(nginx)/"/>
-    <id>https://mainguo.github.io/2018/10/14/3分钟为反向代理架设的Gogs增加https服务(nginx)/</id>
+    <link href="https://blog.mainguo.top/2018/10/14/3%E5%88%86%E9%92%9F%E4%B8%BA%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E6%9E%B6%E8%AE%BE%E7%9A%84Gogs%E5%A2%9E%E5%8A%A0https%E6%9C%8D%E5%8A%A1(nginx)/"/>
+    <id>https://blog.mainguo.top/2018/10/14/3分钟为反向代理架设的Gogs增加https服务(nginx)/</id>
     <published>2018-10-14T08:17:44.000Z</published>
     <updated>2018-10-15T06:00:30.445Z</updated>
     
@@ -31,21 +31,21 @@
     
     </summary>
     
-      <category term="Gogs" scheme="https://mainguo.github.io/categories/Gogs/"/>
+      <category term="Gogs" scheme="https://blog.mainguo.top/categories/Gogs/"/>
     
     
-      <category term="https" scheme="https://mainguo.github.io/tags/https/"/>
+      <category term="https" scheme="https://blog.mainguo.top/tags/https/"/>
     
-      <category term="gogs" scheme="https://mainguo.github.io/tags/gogs/"/>
+      <category term="gogs" scheme="https://blog.mainguo.top/tags/gogs/"/>
     
-      <category term="nginx" scheme="https://mainguo.github.io/tags/nginx/"/>
+      <category term="nginx" scheme="https://blog.mainguo.top/tags/nginx/"/>
     
   </entry>
   
   <entry>
     <title>vultr主机搭建ssr</title>
-    <link href="https://mainguo.github.io/2018/09/18/vultr%E4%B8%BB%E6%9C%BA%E6%90%AD%E5%BB%BAssr/"/>
-    <id>https://mainguo.github.io/2018/09/18/vultr主机搭建ssr/</id>
+    <link href="https://blog.mainguo.top/2018/09/18/vultr%E4%B8%BB%E6%9C%BA%E6%90%AD%E5%BB%BAssr/"/>
+    <id>https://blog.mainguo.top/2018/09/18/vultr主机搭建ssr/</id>
     <published>2018-09-18T03:08:05.000Z</published>
     <updated>2018-10-15T10:48:05.863Z</updated>
     
@@ -58,21 +58,21 @@
     
     </summary>
     
-      <category term="科学上网" scheme="https://mainguo.github.io/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+      <category term="科学上网" scheme="https://blog.mainguo.top/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
     
-      <category term="vps" scheme="https://mainguo.github.io/tags/vps/"/>
+      <category term="vps" scheme="https://blog.mainguo.top/tags/vps/"/>
     
-      <category term="ssr" scheme="https://mainguo.github.io/tags/ssr/"/>
+      <category term="ssr" scheme="https://blog.mainguo.top/tags/ssr/"/>
     
-      <category term="vpn" scheme="https://mainguo.github.io/tags/vpn/"/>
+      <category term="vpn" scheme="https://blog.mainguo.top/tags/vpn/"/>
     
   </entry>
   
   <entry>
     <title>PHP转换gb2312编码xml为数组对象</title>
-    <link href="https://mainguo.github.io/2018/09/02/PHP%E8%BD%AC%E6%8D%A2gb2312%E7%BC%96%E7%A0%81xml%E4%B8%BA%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1/"/>
-    <id>https://mainguo.github.io/2018/09/02/PHP转换gb2312编码xml为数组对象/</id>
+    <link href="https://blog.mainguo.top/2018/09/02/PHP%E8%BD%AC%E6%8D%A2gb2312%E7%BC%96%E7%A0%81xml%E4%B8%BA%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1/"/>
+    <id>https://blog.mainguo.top/2018/09/02/PHP转换gb2312编码xml为数组对象/</id>
     <published>2018-09-02T15:24:04.000Z</published>
     <updated>2018-09-02T15:36:06.490Z</updated>
     
@@ -87,12 +87,12 @@
     
     </summary>
     
-      <category term="后端" scheme="https://mainguo.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https://blog.mainguo.top/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="PHP" scheme="https://mainguo.github.io/tags/PHP/"/>
+      <category term="PHP" scheme="https://blog.mainguo.top/tags/PHP/"/>
     
-      <category term="xml转array" scheme="https://mainguo.github.io/tags/xml%E8%BD%ACarray/"/>
+      <category term="xml转array" scheme="https://blog.mainguo.top/tags/xml%E8%BD%ACarray/"/>
     
   </entry>
   
