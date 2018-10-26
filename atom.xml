@@ -5,9 +5,9 @@
   <subtitle>MainGuo-blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.mainguo.top/"/>
+  <link href="https://blog.mainguo.top/"/>
   <updated>2018-10-26T15:42:59.856Z</updated>
-  <id>http://blog.mainguo.top/</id>
+  <id>https://blog.mainguo.top/</id>
   
   <author>
     <name>郭彬杰</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>phpstudy环境下phpmyadmin页面打开缓慢、卡顿解决办法</title>
-    <link href="http://blog.mainguo.top/2018/10/26/phpstudy%E7%8E%AF%E5%A2%83%E4%B8%8Bphpmyadmin%E9%A1%B5%E9%9D%A2%E6%89%93%E5%BC%80%E7%BC%93%E6%85%A2%E3%80%81%E5%8D%A1%E9%A1%BF%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-    <id>http://blog.mainguo.top/2018/10/26/phpstudy环境下phpmyadmin页面打开缓慢、卡顿解决办法/</id>
+    <link href="https://blog.mainguo.top/2018/10/26/phpstudy%E7%8E%AF%E5%A2%83%E4%B8%8Bphpmyadmin%E9%A1%B5%E9%9D%A2%E6%89%93%E5%BC%80%E7%BC%93%E6%85%A2%E3%80%81%E5%8D%A1%E9%A1%BF%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>https://blog.mainguo.top/2018/10/26/phpstudy环境下phpmyadmin页面打开缓慢、卡顿解决办法/</id>
     <published>2018-10-26T15:43:09.782Z</published>
     <updated>2018-10-26T15:42:59.856Z</updated>
     
@@ -31,19 +31,19 @@
     
     </summary>
     
-      <category term="PHP" scheme="http://blog.mainguo.top/categories/PHP/"/>
+      <category term="PHP" scheme="https://blog.mainguo.top/categories/PHP/"/>
     
     
-      <category term="phpmyadmin" scheme="http://blog.mainguo.top/tags/phpmyadmin/"/>
+      <category term="phpmyadmin" scheme="https://blog.mainguo.top/tags/phpmyadmin/"/>
     
-      <category term="phpstudy" scheme="http://blog.mainguo.top/tags/phpstudy/"/>
+      <category term="phpstudy" scheme="https://blog.mainguo.top/tags/phpstudy/"/>
     
   </entry>
   
   <entry>
     <title>3分钟为反向代理架设的Gogs增加https服务(nginx)</title>
-    <link href="http://blog.mainguo.top/2018/10/14/3%E5%88%86%E9%92%9F%E4%B8%BA%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E6%9E%B6%E8%AE%BE%E7%9A%84Gogs%E5%A2%9E%E5%8A%A0https%E6%9C%8D%E5%8A%A1(nginx)/"/>
-    <id>http://blog.mainguo.top/2018/10/14/3分钟为反向代理架设的Gogs增加https服务(nginx)/</id>
+    <link href="https://blog.mainguo.top/2018/10/14/3%E5%88%86%E9%92%9F%E4%B8%BA%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E6%9E%B6%E8%AE%BE%E7%9A%84Gogs%E5%A2%9E%E5%8A%A0https%E6%9C%8D%E5%8A%A1(nginx)/"/>
+    <id>https://blog.mainguo.top/2018/10/14/3分钟为反向代理架设的Gogs增加https服务(nginx)/</id>
     <published>2018-10-14T08:17:44.000Z</published>
     <updated>2018-10-15T06:00:30.445Z</updated>
     
@@ -55,21 +55,21 @@
     
     </summary>
     
-      <category term="Gogs" scheme="http://blog.mainguo.top/categories/Gogs/"/>
+      <category term="Gogs" scheme="https://blog.mainguo.top/categories/Gogs/"/>
     
     
-      <category term="https" scheme="http://blog.mainguo.top/tags/https/"/>
+      <category term="https" scheme="https://blog.mainguo.top/tags/https/"/>
     
-      <category term="gogs" scheme="http://blog.mainguo.top/tags/gogs/"/>
+      <category term="gogs" scheme="https://blog.mainguo.top/tags/gogs/"/>
     
-      <category term="nginx" scheme="http://blog.mainguo.top/tags/nginx/"/>
+      <category term="nginx" scheme="https://blog.mainguo.top/tags/nginx/"/>
     
   </entry>
   
   <entry>
     <title>vultr主机搭建ssr</title>
-    <link href="http://blog.mainguo.top/2018/09/18/vultr%E4%B8%BB%E6%9C%BA%E6%90%AD%E5%BB%BAssr/"/>
-    <id>http://blog.mainguo.top/2018/09/18/vultr主机搭建ssr/</id>
+    <link href="https://blog.mainguo.top/2018/09/18/vultr%E4%B8%BB%E6%9C%BA%E6%90%AD%E5%BB%BAssr/"/>
+    <id>https://blog.mainguo.top/2018/09/18/vultr主机搭建ssr/</id>
     <published>2018-09-18T03:08:05.000Z</published>
     <updated>2018-10-15T10:48:05.863Z</updated>
     
@@ -82,21 +82,21 @@
     
     </summary>
     
-      <category term="科学上网" scheme="http://blog.mainguo.top/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+      <category term="科学上网" scheme="https://blog.mainguo.top/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
     
-      <category term="vps" scheme="http://blog.mainguo.top/tags/vps/"/>
+      <category term="vps" scheme="https://blog.mainguo.top/tags/vps/"/>
     
-      <category term="ssr" scheme="http://blog.mainguo.top/tags/ssr/"/>
+      <category term="ssr" scheme="https://blog.mainguo.top/tags/ssr/"/>
     
-      <category term="vpn" scheme="http://blog.mainguo.top/tags/vpn/"/>
+      <category term="vpn" scheme="https://blog.mainguo.top/tags/vpn/"/>
     
   </entry>
   
   <entry>
     <title>PHP转换gb2312编码xml为数组对象</title>
-    <link href="http://blog.mainguo.top/2018/09/02/PHP%E8%BD%AC%E6%8D%A2gb2312%E7%BC%96%E7%A0%81xml%E4%B8%BA%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1/"/>
-    <id>http://blog.mainguo.top/2018/09/02/PHP转换gb2312编码xml为数组对象/</id>
+    <link href="https://blog.mainguo.top/2018/09/02/PHP%E8%BD%AC%E6%8D%A2gb2312%E7%BC%96%E7%A0%81xml%E4%B8%BA%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1/"/>
+    <id>https://blog.mainguo.top/2018/09/02/PHP转换gb2312编码xml为数组对象/</id>
     <published>2018-09-02T15:24:04.000Z</published>
     <updated>2018-10-26T15:21:36.354Z</updated>
     
@@ -111,12 +111,12 @@
     
     </summary>
     
-      <category term="PHP" scheme="http://blog.mainguo.top/categories/PHP/"/>
+      <category term="PHP" scheme="https://blog.mainguo.top/categories/PHP/"/>
     
     
-      <category term="PHP" scheme="http://blog.mainguo.top/tags/PHP/"/>
+      <category term="PHP" scheme="https://blog.mainguo.top/tags/PHP/"/>
     
-      <category term="xml转array" scheme="http://blog.mainguo.top/tags/xml%E8%BD%ACarray/"/>
+      <category term="xml转array" scheme="https://blog.mainguo.top/tags/xml%E8%BD%ACarray/"/>
     
   </entry>
   
