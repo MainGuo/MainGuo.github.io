@@ -18,9 +18,9 @@
   
   <entry>
     <title>phpstudy环境下phpmyadmin页面打开缓慢、卡顿解决办法</title>
-    <link href="https://blog.mainguo.top/2018/10/26/phpstudy%E7%8E%AF%E5%A2%83%E4%B8%8Bphpmyadmin%E9%A1%B5%E9%9D%A2%E6%89%93%E5%BC%80%E7%BC%93%E6%85%A2%E3%80%81%E5%8D%A1%E9%A1%BF%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-    <id>https://blog.mainguo.top/2018/10/26/phpstudy环境下phpmyadmin页面打开缓慢、卡顿解决办法/</id>
-    <published>2018-10-26T15:43:09.782Z</published>
+    <link href="https://blog.mainguo.top/2018/11/17/phpstudy%E7%8E%AF%E5%A2%83%E4%B8%8Bphpmyadmin%E9%A1%B5%E9%9D%A2%E6%89%93%E5%BC%80%E7%BC%93%E6%85%A2%E3%80%81%E5%8D%A1%E9%A1%BF%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>https://blog.mainguo.top/2018/11/17/phpstudy环境下phpmyadmin页面打开缓慢、卡顿解决办法/</id>
+    <published>2018-11-17T09:08:49.152Z</published>
     <updated>2018-10-28T00:10:37.153Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;在我的linux环境下安装的lnmp和lamp环境都没有出现过phpmyadmin页面卡顿的情况，甚至在windows下，我使用appserv亦没有这样的糟糕体验。<br><a id="more"></a></p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>&emsp;&emsp;1.下载最新版本的phpmyadmin：<a href="https://www.phpmyadmin.net" target="_blank" rel="noopener">https://www.phpmyadmin.net</a><br><br>&emsp;&emsp;2.将下载好的phpmyadmin解压出来，重命名后放到原phpmyadmin同目录下<center style="padding:10px"><img src="http://p8ruh7rsq.bkt.clouddn.com/image/phpmyadmin.jpg" alt="image"></center><br><br>&emsp;&emsp;3.修改配置文件，将localhost修改为127.0.0.1<center style="padding:10px"><img src="http://p8ruh7rsq.bkt.clouddn.com/image/phpmyadminconfig.jpg" alt="image"><img src="http://p8ruh7rsq.bkt.clouddn.com/image/phpmyadminconfig2.jpg" alt="image"></center><br><br>&emsp;&emsp;fuck（phpmyadmin），这里访问phpmyadmin的方式就是：<font color="#E84758">127.0.0.1/fuck</font>，因为我将其命名为fuck了 =。=<br><br>&emsp;&emsp;卡顿的情况会有所改善，但还是没有其他环境下那么丝滑…至于效果的话，各位看官亲测一下好了</p>]]></content>
