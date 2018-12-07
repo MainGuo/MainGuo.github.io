@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>Archives: 2018/9 | MainGuo的博客</title>
+  <title>Tag: nginx | MainGuo的博客</title>
   <meta name="description" content="郭彬杰的博客" />
   <meta name="keywords" content="" />
   <meta name="HandheldFriendly" content="True" />
@@ -122,9 +122,8 @@
     <div class='container clearfix'>
         <div class='l_main'>
             
-	
     <script>
-        window.subData= { title:'year : 2018.9'}
+        window.subData= { title:'tag : nginx'}
     </script>
 
 
@@ -135,84 +134,40 @@
             <article class="post reveal ">
     <section class="meta">
         <h2 class="title">
-            <a href="/2018/09/18/vultr主机搭建ssr/">
+            <a href="/2018/10/14/3分钟为反向代理架设的gogs增加https服务(nginx)/">
                 
-                    vultr主机搭建ssr
+                    3分钟为反向代理架设的Gogs增加https服务(nginx)
                 
             </a>
         </h2>
         <time>
-            <i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;2018-09-18
+            <i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;2018-10-14
         </time>
         
     
     <div class='cats'>
-        <a href="/categories/科学上网/">科学上网</a>
+        <a href="/categories/Gogs/">Gogs</a>
     </div>
 
 
     </section>
 
     <section class="article typo">
-        <h3 id="1-vultr机房测速"><a href="#1-vultr机房测速" class="headerlink" title="1.vultr机房测速"></a>1.vultr机房测速</h3><p>&emsp;&emsp;可以去网上搜索一下vultr中文网给的测速文件，是vultr中文网在官方公布的测试数据的基础上简单写了一个批处理文件，使用 Windows 系统的朋友可以下载测试脚本：<a href="https://www.vultrcn.com/goto/?url=aHR0cHM6Ly9maWxlZG93bi5tZS9PdGhlci9WdWx0cl9QaW5nX1Rlc3RfRm9yX1dpbmRvd3Muemlw" target="_blank" rel="noopener">点我下载！！！</a><br><br>&emsp;&emsp;压缩包解压缩后双击运行，按照下图提示进行操作即可。<center style="padding:10px"><img src="https://static.vultrcn.com/wp-content/uploads/2018/03/vultr-test01.png" alt="image"></center><br>&emsp;&emsp;注意脚本会对每个机房进行 10 次 Ping 测试，测试完成后请不要按任意键继续，否则会退出脚本。请先挑选出延迟较低的机房，然后再退出。<br><br>&emsp;&emsp;我选择的是Silicon Valley地区的服务器</p>
-<h3 id="2-氪金"><a href="#2-氪金" class="headerlink" title="2.氪金"></a>2.氪金</h3><p>&emsp;&emsp;vultr用paypal充值5刀送25刀</p>
+        <h3 id="一、环境"><a href="#一、环境" class="headerlink" title="一、环境"></a>一、环境</h3><p>&emsp;&emsp;我把Gogs架设在了阿里云学生机上，使用的是CentOS7.4 x64，利用宝塔Linux面板安装了lnmp的运行环境。<br><br>&emsp;&emsp;在此前尚未增加https的时候，我是利用nginx的反向代理，把80端口转发到3000端口<font color="#E84758">（Gogs的默认服务端口是3000）</font>就可以直接访问搭建完成的Gogs了，配置如下<br>
         
             <div class="readmore">
-                <a href="/2018/09/18/vultr主机搭建ssr/" class="flat-box">READ MORE</a>
+                <a href="/2018/10/14/3分钟为反向代理架设的gogs增加https服务(nginx)/" class="flat-box">READ MORE</a>
             </div>
         
 
         
             <div class="full-width auto-padding tags">
                 
-                    <a href="/tags/vps/"><i class="fa fa-tag fa-fw"></i>&nbsp;vps</a>
+                    <a href="/tags/https/"><i class="fa fa-tag fa-fw"></i>&nbsp;https</a>
                 
-                    <a href="/tags/ssr/"><i class="fa fa-tag fa-fw"></i>&nbsp;ssr</a>
+                    <a href="/tags/gogs/"><i class="fa fa-tag fa-fw"></i>&nbsp;gogs</a>
                 
-                    <a href="/tags/vpn/"><i class="fa fa-tag fa-fw"></i>&nbsp;vpn</a>
-                
-            </div>
-        
-    </section>
-</article>
-
-        </div>
-    
-        <div class='post-wrapper'>
-            <article class="post reveal ">
-    <section class="meta">
-        <h2 class="title">
-            <a href="/2018/09/02/php转换gb2312编码xml为数组对象/">
-                
-                    PHP转换gb2312编码xml为数组对象
-                
-            </a>
-        </h2>
-        <time>
-            <i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;2018-09-02
-        </time>
-        
-    
-    <div class='cats'>
-        <a href="/categories/PHP/">PHP</a>
-    </div>
-
-
-    </section>
-
-    <section class="article typo">
-        <p>&emsp;&emsp;调用中间件接口的返回值是一个xml字符串，其中 <strong>charset=”GB2312”</strong>，但奇怪的是我使用 <strong>mb_detect_encoding()</strong> 函数来判断这个xml字符串，得到的结果却是  UTF-8。<strong>但由于 xml 中 charset 的值为 GB2312，所以导致了 simplexml_load_string() 函数无法成功解析这个xml字符串</strong>。<br></p>
-<p>&emsp;&emsp;其实解决这个错误非常简单,使用 str_replace 函数将xml字符串中的编码格式替换为 UTF-8 后再使用json编码解码后就可以得到干净的数组元素。<br></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$xml= str_replace(&apos;GB2312&apos;,&apos;UTF-8&apos;,$xml);</span><br><span class="line">$xml= simplexml_load_string($xml);</span><br><span class="line">$xml= json_encode($xml);//将对象转换个JSON</span><br><span class="line">$xml=json_decode($xml,JSON_UNESCAPED_UNICODE);//将json转换成数组</span><br></pre></td></tr></table></figure>
-
-        
-
-        
-            <div class="full-width auto-padding tags">
-                
-                    <a href="/tags/PHP/"><i class="fa fa-tag fa-fw"></i>&nbsp;PHP</a>
-                
-                    <a href="/tags/xml转array/"><i class="fa fa-tag fa-fw"></i>&nbsp;xml转array</a>
+                    <a href="/tags/nginx/"><i class="fa fa-tag fa-fw"></i>&nbsp;nginx</a>
                 
             </div>
         
@@ -222,8 +177,6 @@
         </div>
     
 </section>
-
-
 
 
 
