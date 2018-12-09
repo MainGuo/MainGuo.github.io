@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.mainguo.top/"/>
-  <updated>2018-12-07T16:17:04.154Z</updated>
+  <updated>2018-12-09T09:50:37.927Z</updated>
   <id>https://blog.mainguo.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo 一键发布文章</title>
+    <link href="https://blog.mainguo.top/2018/12/09/Hexo%20%E4%B8%80%E9%94%AE%E6%93%8D%E4%BD%9C/"/>
+    <id>https://blog.mainguo.top/2018/12/09/Hexo 一键操作/</id>
+    <published>2018-12-09T09:50:35.000Z</published>
+    <updated>2018-12-09T09:50:37.927Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一、吐槽"><a href="#一、吐槽" class="headerlink" title="一、吐槽"></a>一、吐槽</h1><p>&emsp;&emsp;刚开始使用hexo的时候简直无法忍受繁杂的部署命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></p><h1 id="二、搞事情"><a href="#二、搞事情" class="headerlink" title="二、搞事情"></a>二、搞事情</h1><h2 id="2-1、临时别名（只在当前目录生效）"><a href="#2-1、临时别名（只在当前目录生效）" class="headerlink" title="2.1、临时别名（只在当前目录生效）"></a>2.1、临时别名（只在当前目录生效）</h2><p>&emsp;&emsp;进入博客的目录，打开Git bash输入以下命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">alias</span> fuck=<span class="string">'hexo clean;hexo g -d'</span></span><br><span class="line">fuck</span><br></pre></td></tr></table></figure></p><p>&emsp;&emsp;在git bash中输入fuck就可以直接完成清空、重新部署推送了。但只在当前的目录生效，在别的地方打开git bash输入fuck是没有任何效果的。<br><br></p><h2 id="2-2、全局别名"><a href="#2-2、全局别名" class="headerlink" title="2.2、全局别名"></a>2.2、全局别名</h2><p>任意目录打开git bash，输入以下命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global alias.fuck <span class="string">'!hexo clean;hexo g -d'</span></span><br><span class="line">git fuck</span><br></pre></td></tr></table></figure></p><p>&emsp;&emsp;其实大概看命令就知道是什么意思了，我就不做解释了。全局命令顾名思义就是在任意目录下git fuck都将生效<br><br><br>&emsp;&emsp;取消别名<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">unalias</span> fuck</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;一、吐槽&quot;&gt;&lt;a href=&quot;#一、吐槽&quot; class=&quot;headerlink&quot; title=&quot;一、吐槽&quot;&gt;&lt;/a&gt;一、吐槽&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;刚开始使用hexo的时候简直无法忍受繁杂的部署命令&lt;br&gt;&lt;figure class=&quot;highli
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="https://blog.mainguo.top/categories/Hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://blog.mainguo.top/tags/hexo/"/>
+    
+      <category term="黑科技" scheme="https://blog.mainguo.top/tags/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
   
   <entry>
     <title>phpstudy环境下phpmyadmin页面打开缓慢、卡顿解决办法</title>
