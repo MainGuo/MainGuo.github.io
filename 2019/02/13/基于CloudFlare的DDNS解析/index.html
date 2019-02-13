@@ -144,7 +144,8 @@
     <section class="article typo">
 
         <div class="article-entry" itemprop="articleBody">
-            <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>&emsp;&emsp;注册一个cloudflare账号后，按照cloudflare给出的提示，将域名接入cloudflare。<font color="#E84758">（即DNS为CF提供的地址）</font><br><a id="more"></a></p>
+            <h1 id="DDNS的作用"><a href="#DDNS的作用" class="headerlink" title="DDNS的作用"></a>DDNS的作用</h1><p>&emsp;&emsp;在使用NAT鸡的时候难免会在某种不可抗力的影响下不断的更换IP，所以为了在IP变动的时候可以不修改配置，可以使用域名解析来解决这样的问题。即使IP更换，客户端也无需修改。</p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>&emsp;&emsp;注册一个cloudflare账号后，按照cloudflare给出的提示，将域名接入cloudflare。<font color="#E84758">（即DNS为CF提供的地址）</font><br><a id="more"></a></p>
 <h1 id="一、获取cloudflare账号的global-key"><a href="#一、获取cloudflare账号的global-key" class="headerlink" title="一、获取cloudflare账号的global key"></a>一、获取cloudflare账号的global key</h1><p>&emsp;&emsp;打开网页：<a href="https://dash.cloudflare.com/profile" target="_blank" rel="noopener">https://dash.cloudflare.com/profile</a></p>
 <p>&emsp;&emsp;在页面下方找到【Global API Key】，点击右侧的View查看Key，并保存下来<center style="padding:10px"><img src="http://img.guobinjie.top/image/cloudflare-key.png" alt="image"></center></p>
 <h1 id="二、设置用于-DDNS-解析的二级域名"><a href="#二、设置用于-DDNS-解析的二级域名" class="headerlink" title="二、设置用于 DDNS 解析的二级域名"></a>二、设置用于 DDNS 解析的二级域名</h1><p>&emsp;&emsp;在 Cloudflare 中新建一个A记录，如：ddns.yourdomain.com，指向 1.1.1.1<font color="#E84758">（可随意指定，如123.123.123.123等等，主要用于后续查看 DDNS<center style="padding:10px"></center><img src="http://img.guobinjie.top/image/cloudflare-dns.png" alt="image"></font></p>
@@ -413,7 +414,7 @@
     <section class='m_widget toc-wrapper'>
         <div class="header"><i class="fa fa-list fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;目录</div>
         <div class='content'>
-            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#准备工作"><span class="toc-text">准备工作</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#一、获取cloudflare账号的global-key"><span class="toc-text">一、获取cloudflare账号的global key</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#二、设置用于-DDNS-解析的二级域名"><span class="toc-text">二、设置用于 DDNS 解析的二级域名</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三、下载-DDNS-脚本-修改配置"><span class="toc-text">三、下载 DDNS 脚本,修改配置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#四、脚本授权并执行"><span class="toc-text">四、脚本授权并执行</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#五、设置定时任务"><span class="toc-text">五、设置定时任务</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#DDNS的作用"><span class="toc-text">DDNS的作用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#准备工作"><span class="toc-text">准备工作</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#一、获取cloudflare账号的global-key"><span class="toc-text">一、获取cloudflare账号的global key</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#二、设置用于-DDNS-解析的二级域名"><span class="toc-text">二、设置用于 DDNS 解析的二级域名</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三、下载-DDNS-脚本-修改配置"><span class="toc-text">三、下载 DDNS 脚本,修改配置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#四、脚本授权并执行"><span class="toc-text">四、脚本授权并执行</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#五、设置定时任务"><span class="toc-text">五、设置定时任务</span></a></li></ol>
         </div>
     </section>
 
